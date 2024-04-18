@@ -1,0 +1,51 @@
+header {
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+
+.nike {
+    width: 40px;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 150px;
+    height: 35px;
+    background-color: #ddd;
+    border-radius: 35px;
+    transition: 0.1s;
+}
+
+#search > i {
+    margin-left: 10px;
+}
+
+#search:hover {
+    border: 3px solid black;
+}
+
+.carousel-item > img {
+    height: 80vh;
+    margin: auto;
+}
+
+.name {
+    text-align: center;
+}
+
+.selecElem {
+    transition: 0.1s;
+}
+
+.selecElem:hover {
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
